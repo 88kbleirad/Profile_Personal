@@ -67,7 +67,6 @@ Profile_Personal/
 Requirements: **Node.js** (LTS version recommended) and **npm** installed.
 
 ```bash
-# Install dependencies
 npm install
 ```
 
