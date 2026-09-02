@@ -31,7 +31,7 @@ const AboutSection = () => {
           >
             <CardContent className="p-8 text-center">
               <div className="flex flex-col items-center mb-6">
-                <Avatar className="w-[270px] h-[270px] mb-4 border-4 border-primary group-hover:scale-110 transition-transform duration-300">
+                <Avatar className="w-[250px] h-[250px] mb-4 border-4 border-primary group-hover:scale-110 transition-transform duration-250">
                   <AvatarImage src={profile.image} alt={profile.name} />
                   <AvatarFallback className="text-6xl font-bold bg-primary/20 text-primary">
                     {profile.fallback}
