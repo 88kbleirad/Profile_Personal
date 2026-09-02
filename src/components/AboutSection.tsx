@@ -8,7 +8,7 @@ const AboutSection = () => {
     role: "Network Engineer",
     description: "Self-taught network engineer with hands-on experience in Cisco devices, network automation using Python, and cloud networking. Passionate about designing scalable infrastructure and building tools to simplify operations.",
     highlights: ["Network Automation", "Python Scripting", "Cloud Networking", "Cisco Devices"],
-    image: "https://zeroth-harlequin-pa9xrcqvzj.edgeone.app/me.jpg",
+    image: "assets/ciel_tempest_2.jpg",
     fallback: "LP"
   };
 
