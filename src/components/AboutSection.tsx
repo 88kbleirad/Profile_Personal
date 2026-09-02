@@ -1,7 +1,7 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Code, Shield, Network, Award } from 'lucide-react';
-import profileImage from '../assets/ciel_tempest_2.jpg';
+import profileImage from '../assets/ciel_tempest_2.png';
 
 const AboutSection = () => {
   const profile = {
