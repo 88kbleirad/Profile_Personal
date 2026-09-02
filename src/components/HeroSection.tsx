@@ -63,15 +63,18 @@ const HeroSection = () => {
               Contact Us
             </Button>
             
-            <div className="flex gap-4">
-              <Button variant="outline" size="icon" className="hover:bg-primary/10 hover:border-primary transition-all duration-300">
-                <Github className="h-5 w-5" />
-              </Button>
-              <Button variant="outline" size="icon" className="hover:bg-primary/10 hover:border-primary transition-all duration-300">
-                <Linkedin className="h-5 w-5" />
-              </Button>
-            </div>
-          </div>
+          <div className="flex gap-4">
+             <Button asChild variant="outline" size="icon" className="hover:bg-primary/10 hover:border-primary transition-all duration-300">
+                <a href="https://github.com/88kbleirad" target="_blank" rel="noopener noreferrer">
+                   <Github className="h-5 w-5" />
+                </a>
+             </Button>
+             <Button asChild variant="outline" size="icon" className="hover:bg-primary/10 hover:border-primary transition-all duration-300">
+                <a href="https://www.linkedin.com/in/lephongchillguy/" target="_blank" rel="noopener noreferrer">
+                   <Linkedin className="h-5 w-5" />
+                </a>
+             </Button>
+          </div> 
         </div>
       </div>
 
