@@ -1,6 +1,7 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Code, Shield, Network, Award } from 'lucide-react';
+import profileImage from '@/assets/ciel_tempest_2.jpg';
 
 const AboutSection = () => {
   const profile = {
@@ -8,7 +9,7 @@ const AboutSection = () => {
     role: "Network Engineer",
     description: "Self-taught network engineer with hands-on experience in Cisco devices, network automation using Python, and cloud networking. Passionate about designing scalable infrastructure and building tools to simplify operations.",
     highlights: ["Network Automation", "Python Scripting", "Cloud Networking", "Cisco Devices"],
-    image: "~/Profile_Personal/src/assets/ciel_tempest_2.jpg",
+    image: profileImage,
     fallback: "LP"
   };
 
