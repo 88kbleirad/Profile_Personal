@@ -74,6 +74,7 @@ const HeroSection = () => {
                    <Linkedin className="h-5 w-5" />
                 </a>
              </Button>
+	  </div>
           </div> 
         </div>
       </div>
